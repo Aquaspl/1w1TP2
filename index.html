@@ -9,7 +9,7 @@
   <body>
     <aside>
       <h2>Menu</h2>
-      <hr/>
+      <hr />
       <nav class="hidden">
         <ul>
           <li>
@@ -19,7 +19,7 @@
             <a href="#formulaire">Formulaire</a>
           </li>
           <li>
-            <a href="#tableau">Acceuil</a>
+            <a href="#tableau">tableau</a>
           </li>
           <li>
             <a href="#acceuil">Acceuil</a>
@@ -40,16 +40,28 @@
       <p>mettre adresse github ici</p>
     </section>
     <section id="formulaire">
-      <h2>*: obligatoire</h2>
+      <h2>Formulaire</h2>
+      <h3>*: obligatoire</h3>
       <form action="" method="get">
-        <label for="nom">Nom*</label>
-        <input type="text" id="nom" name="nom" required maxlength="200" />
-        <label for=""></label>
-        <label for="email">Courriel* :</label>
-        <input type="email" name="email" id="email" required maxlength="200" />
-        <label for="pass">Mot de passe* :</label>
-        <input type="password" name="pass" id="pass" required minlength="8" />
-        <div id="radio">
+        <div>
+          <label for="nom">Nom*</label>
+          <input type="text" id="nom" name="nom" required maxlength="200" />
+        </div>
+        <div>
+          <label for=""></label>
+          <label for="email">Courriel* :</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            maxlength="200"
+          />
+        </div>
+        <div>
+          <label for="pass">Mot de passe* :</label>
+          <input type="password" name="pass" id="pass" required minlength="8" />
+          <div id="radio"></div>
           <input type="radio" name="genre" id="genre" value="homme" checked />
           <label for="genre">Homme</label>
           <input type="radio" name="genre" id="genre" value="femme" />
@@ -63,8 +75,28 @@
         </div>
       </form>
     </section>
-    <section class="tableau">
+    <section id="tableau">
       <table></table>
     </section>
+    <article>
+      <div class="articleMain">
+        <h2>Pokérogue</h2>
+
+        <p>
+          Entrez dans le monde de pokérogue, un jeu web basée sur la franchise
+          Pokémon. Ce jeux web prends l'aventure pokémon et la change pour
+          enlever tout le déplacement dans le monde, et garde seulement le
+          combat.
+        </p>
+      </div>
+      <img
+        src="assets/img/TitrePokerogue.png"
+        alt="image titre du jeu"
+        id="titreImg"
+      />
+      <div class="articleMain">
+        
+      </div>
+    </article>
   </body>
 </html>

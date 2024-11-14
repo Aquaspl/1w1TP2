@@ -1,29 +1,56 @@
 @import url(reset.css);
 
-aside{
-    background-color: brown;
-    position: fixed;
-    height: 100%;
+aside {
+  background-color: royalblue;
+  position: fixed;
 }
-aside:hover{
-    background-color: brown;
-    position: fixed;
-    height: 100%;
-    width: 25%;
+aside:hover {
+  background-color: cadetblue;
+  position: fixed;
+}
+aside:active {
+  background-color: aliceblue;
+}
+article {
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.articleMain {
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 50%;
+  text-align: center;
+}
+.articleMain h2 {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+#titreImg {
+  width: 30%;
+}
+#formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: bisque;
+}
+#formulaire div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
-
-.hidden{
-    opacity: 0;
-}
-#acceuil{
-    background-color:blanchedalmond;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 150px;
-    min-height: 100vh;
+#acceuil {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  min-height: 100vh;
 }
