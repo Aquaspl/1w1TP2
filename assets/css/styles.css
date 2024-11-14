@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+aside{
+    background-color: brown;
+    position: fixed;
+    height: 100%;
+}
+aside:hover{
+    background-color: brown;
+    position: fixed;
+    height: 100%;
+    width: 25%;
+}
+
+
+
+
+.hidden{
+    opacity: 0;
+}
+#acceuil{
+    background-color:blanchedalmond;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    min-height: 100vh;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promotion</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <aside>
+      <h2>Menu</h2>
+      <hr/>
+      <nav class="hidden">
+        <ul>
+          <li>
+            <a href="#acceuil">Acceuil</a>
+          </li>
+          <li>
+            <a href="#formulaire">Formulaire</a>
+          </li>
+          <li>
+            <a href="#tableau">Acceuil</a>
+          </li>
+          <li>
+            <a href="#acceuil">Acceuil</a>
+          </li>
+          <li>
+            <a href="#acceuil">Acceuil</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <section id="acceuil">
+      <h2>Acceuil</h2>
+      <p>Alexandre Dion</p>
+      <p>582 - 1W1 - Mise en page Web</p>
+      <p>
+        Technique d'intégration multimedia, Collège de Maisonneuve, automne 2024
+      </p>
+      <p>mettre adresse github ici</p>
+    </section>
+    <section id="formulaire">
+      <h2>*: obligatoire</h2>
+      <form action="" method="get">
+        <label for="nom">Nom*</label>
+        <input type="text" id="nom" name="nom" required maxlength="200" />
+        <label for=""></label>
+        <label for="email">Courriel* :</label>
+        <input type="email" name="email" id="email" required maxlength="200" />
+        <label for="pass">Mot de passe* :</label>
+        <input type="password" name="pass" id="pass" required minlength="8" />
+        <div id="radio">
+          <input type="radio" name="genre" id="genre" value="homme" checked />
+          <label for="genre">Homme</label>
+          <input type="radio" name="genre" id="genre" value="femme" />
+          <label for="genre">femme</label>
+          <input type="radio" name="genre" id="genre" value="neutre" />
+          <label for="genre">Neutre</label>
+        </div>
+        <div class="bouttonsFormulaire">
+          <input type="reset" class="btn" />
+          <input type="submit" value="Créer un compte?" class="btn" />
+        </div>
+      </form>
+    </section>
+    <section class="tableau">
+      <table></table>
+    </section>
+  </body>
+</html>
