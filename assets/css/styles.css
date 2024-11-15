@@ -1,5 +1,8 @@
 @import url(reset.css);
 
+h2 {
+  font-size: 25px;
+}
 aside {
   background-color: royalblue;
   position: fixed;
@@ -13,14 +16,12 @@ aside:active {
   background-color: aliceblue;
 }
 article {
-  background-color: violet;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .articleMain {
-  background-color: red;
   padding-top: 10px;
   padding-bottom: 50px;
   width: 50%;
@@ -38,7 +39,6 @@ article {
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  background-color: bisque;
 }
 #formulaire div {
   display: flex;
@@ -47,7 +47,6 @@ article {
 }
 
 #acceuil {
-  background-color: blanchedalmond;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -55,21 +54,29 @@ article {
   gap: 100px;
   min-height: 100vh;
 }
-#video{
-  background-color: cadetblue;
+#video {
   display: flex;
   gap: 10px;
   flex-flow: column nowrap;
   align-items: center;
 }
-#gallerie{
+#gallerie {
   display: flex;
   flex-flow: column nowrap;
   gap: 10px;
   justify-content: center;
   align-items: center;
-  background-color: forestgreen;
 }
-#images1, #images2, #images3{
+#pied {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+#liensimportant {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
