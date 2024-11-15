@@ -3,6 +3,7 @@
 aside {
   background-color: royalblue;
   position: fixed;
+  height: 100%;
 }
 aside:hover {
   background-color: cadetblue;
@@ -53,4 +54,22 @@ article {
   align-items: center;
   gap: 100px;
   min-height: 100vh;
+}
+#video{
+  background-color: cadetblue;
+  display: flex;
+  gap: 10px;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#gallerie{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: forestgreen;
+}
+#images1, #images2, #images3{
+
 }
