@@ -1,7 +1,8 @@
 @import url(reset.css);
 body {
-  scroll-behavior: smooth;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 h2 {
   font-size: 25px;
@@ -9,11 +10,15 @@ h2 {
 a {
   color: white;
   transition-property: color;
-  transition-duration: 1s 1s;
+  transition-duration: 1s;
   transition-timing-function: ease-in, linear;
 }
 a:hover {
   color: red;
+}
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 ul {
   display: flex;
@@ -120,7 +125,7 @@ article {
 }
 #video {
   display: flex;
-  gap: 100 px;
+  gap: 100px;
   flex-flow: column nowrap;
   align-items: center;
   background-color: rgb(54, 76, 131);
