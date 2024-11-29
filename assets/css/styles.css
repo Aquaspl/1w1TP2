@@ -1,11 +1,13 @@
 @import url(reset.css);
+html,
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Playwrite DE Grund";
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
 h2 {
   font-size: 25px;
+  animation: RGB 3s alternate infinite;
 }
 a {
   color: white;
@@ -18,7 +20,6 @@ a:hover {
 }
 section {
   scroll-snap-align: start;
-  scroll-snap-stop: always;
 }
 ul {
   display: flex;
@@ -63,7 +64,7 @@ aside:hover {
   position: fixed;
 }
 aside:active {
-  background-color: aliceblue;
+  background-color: rgb(41, 68, 92);
 }
 article {
   display: flex;
@@ -72,6 +73,7 @@ article {
   justify-content: center;
   background-color: rgb(64, 90, 156);
   height: 100vh;
+  scroll-snap-align: start;
 }
 .btn {
   animation: bouton 3s linear infinite;
@@ -150,6 +152,7 @@ article {
   gap: 10vh;
   background-color: black;
   height: 100vh;
+  scroll-snap-align: start;
 }
 #pied a {
   color: white;
@@ -170,5 +173,16 @@ article {
   }
   100% {
     background-color: royalblue;
+  }
+}
+@keyframes RGB {
+  0% {
+    color: rgb(255, 138, 138);
+  }
+  50% {
+    color: rgb(127, 255, 127);
+  }
+  100% {
+    color: rgb(163, 163, 253);
   }
 }
